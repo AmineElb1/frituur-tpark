@@ -22,8 +22,8 @@ export function MenuSection() {
   return (
     <section id="menu" className="py-16 px-4">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-balance">Our Menu</h2>
-        <p className="text-center text-muted-foreground mb-8 text-lg">Fresh, delicious, and made to order</p>
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-balance">Ons Menu</h2>
+        <p className="text-center text-muted-foreground mb-8 text-lg">Vers, heerlijk en op bestelling gemaakt</p>
 
         {/* Category Filter */}
         <div className="flex flex-wrap justify-center gap-3 mb-12">

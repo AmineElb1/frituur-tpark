@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ShoppingCart, Menu, X } from "lucide-react"
 import { useState } from "react"
@@ -18,8 +19,14 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-2xl font-bold text-primary-foreground">FP</span>
+            <div className="w-12 h-12 relative">
+              <Image
+                src="/frituurtpark.png"
+                alt="Frituur 't Park Logo"
+                width={48}
+                height={48}
+                className="object-contain"
+              />
             </div>
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold text-balance">Frituur 't Park</h1>
