@@ -19,17 +19,17 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-12 h-12 relative">
+            <div className="w-16 h-16 relative">
               <Image
-                src="/frituurtpark.png"
-                alt="Frituur 't Park Logo"
-                width={48}
-                height={48}
+                src="/frituurLogo.png"
+                alt="Frituur 't Boompje Logo"
+                width={64}
+                height={64}
                 className="object-contain"
               />
             </div>
             <div className="hidden sm:block">
-              <h1 className="text-xl font-bold text-balance">Frituur 't Park</h1>
+              <h1 className="text-xl font-bold text-balance">Frituur 't Boompje</h1>
               <p className="text-xs text-secondary-foreground/80">Belgische Frietjes & Snacks</p>
             </div>
           </Link>

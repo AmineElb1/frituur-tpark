@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container mx-auto max-w-6xl">
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h4 className="font-bold text-lg mb-4">Frituur 't Park</h4>
+            <h4 className="font-bold text-lg mb-4">Frituur 't Boompje</h4>
             <p className="text-sm text-secondary-foreground/80">Authentieke Belgische frietjes en snacks sinds 1985</p>
           </div>
 
@@ -82,7 +82,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-secondary-foreground/20 pt-8 text-center text-sm text-secondary-foreground/80">
-          <p>&copy; {new Date().getFullYear()} Frituur 't Park. Alle rechten voorbehouden.</p>
+          <p>&copy; {new Date().getFullYear()} Frituur 't Boompje. Alle rechten voorbehouden.</p>
         </div>
       </div>
     </footer>

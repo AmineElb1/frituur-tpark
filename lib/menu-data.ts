@@ -26,7 +26,7 @@ export const menuData: MenuCategory[] = [
       },
       {
         id: "fries-medium",
-        name: "Middel Friet",
+        name: "Medium Friet",
         description: "Perfecte portie krokante frietjes",
         price: 4.5,
         image: "/medium-portion-belgian-fries.jpg",

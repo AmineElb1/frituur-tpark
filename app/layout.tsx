@@ -8,8 +8,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"], weight: ["400", "600", "700", "800"] })
 
 export const metadata: Metadata = {
-  title: "Frituur 't Park - Belgian Fries & Snacks",
-  description: "Order delicious Belgian fries, snacks, and more from Frituur 't Park",
+  title: "Frituur 't Boompje - Belgian Fries & Snacks",
+  description: "Order delicious Belgian fries, snacks, and more from Frituur 't Boompje",
   generator: "v0.app",
 }
 
